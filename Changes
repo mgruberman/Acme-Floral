@@ -1,0 +1,7 @@
+Revision history for Perl extension Acme::Floral.
+
+0.01  Thu May 22 16:38:12 2003
+	- original version; created by h2xs 1.5 with options
+		-X -n Acme::Floral
+1.00  Sat Jul 5 2003
+        - now it works

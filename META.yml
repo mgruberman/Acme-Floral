@@ -1,0 +1,10 @@
+#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
+name:         Acme-Floral
+version:      1.00
+version_from: Floral.pm
+installdirs:  site
+requires:
+    B::Deobfuscate:                0.06
+
+distribution_type: module
+generated_by: ExtUtils::MakeMaker version 6.10_07
