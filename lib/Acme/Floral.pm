@@ -1,7 +1,8 @@
 package Acme::Floral;
+use 5.008;
 use B::Deobfuscate;
 
-$VERSION = '1.00';
+$VERSION = '1.02';
 
 sub arrange (\$) {
     my $plants = shift;
@@ -443,16 +444,16 @@ Acme::Floral - Produces fragrant perl
 
 Tell them they're exceptional with our fresh bouquet of Western_Larch,
 Washington_Monkeyflower, Thimbleberry, and more  arranged beautifully by our
-florists in our precious vase, available only from L<http://www.cpan.org>.
-Your thoughtfulness lives on with our memorable keepsake vase of fine ivory
-china, decorated with a rose pattern, trimmed in 24K gold and not accompanied
-by a certificate of authenticity. Available globally. Actual floral choices
-may vary.
+florists in our precious vase, available only from
+L<http:E<sol>E<sol>www.cpan.org>. Your thoughtfulness lives on with our
+memorable keepsake vase of fine ivory china, decorated with a rose pattern,
+trimmed in 24K gold and not accompanied by a certificate of authenticity.
+Available globally. Actual floral choices may vary.
 
 =head2 EXPORT
 
-Shipping is available globally upon request. See L<http://www.cpan.org> for
-more details.
+Shipping is available globally upon request. See
+L<http:E<sol>E<sol>www.cpan.org> for more details.
 
 =head1 AUTHOR
 

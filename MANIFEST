@@ -1,7 +1,8 @@
 Changes
-Floral.pm
-Makefile.PL
 MANIFEST
+META.yml			Module meta-data (added by MakeMaker)
+Makefile.PL
 README
-test.pl
-META.yml                                Module meta-data (added by MakeMaker)
+SIGNATURE
+lib/Acme/Floral.pm
+t/basic.t

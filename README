@@ -17,15 +17,6 @@ ABSTRACT
     Shipping is available globally upon request. See <http://www.cpan.org>
     for more details.
 
-INSTALLATION
-
-To install this module type the following:
-
-   perl Makefile.PL
-   make
-   make test
-   make install
-
 AUTHOR
     Joshua b. Jore <jjore@cpan.org>
 

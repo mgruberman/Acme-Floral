@@ -5,3 +5,11 @@ Revision history for Perl extension Acme::Floral.
 		-X -n Acme::Floral
 1.00  Sat Jul 5 2003
         - now it works
+1.01  Jul 7 2003
+        - Added 5.8 requirement
+1.02  Jul 8
+        - Fixed pod syntax ('/' wasn't escaped)
+        - added t/basic.t
+        - moved Floral.pm to lib/Acme/Floral.pm
+        - updated META.yml
+        - upgraded B::Deobfuscate requirement to 0.10
