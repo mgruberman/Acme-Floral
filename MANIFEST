@@ -1,8 +1,11 @@
 Changes
-MANIFEST
-META.yml			Module meta-data (added by MakeMaker)
+lib/Acme/Floral.pm
 Makefile.PL
+MANIFEST			This list of files
+MANIFEST.SKIP
+META.yml
 README
 SIGNATURE
-lib/Acme/Floral.pm
-t/basic.t
+t/00signature.t
+t/01pod.t
+t/10basic.t

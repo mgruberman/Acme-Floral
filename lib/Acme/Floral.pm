@@ -2,21 +2,22 @@ package Acme::Floral;
 use 5.008;
 use B::Deobfuscate;
 
-$VERSION = '1.02';
+$VERSION = '1.03';
 
-sub arrange (\$) {
-    my $plants = shift;
-    $$plants =~ tr"'""d;
-    $$plants =~ s([^-\w\n])(_)g;
-    $$plants =~ tr/_//s;
+sub ArrangeTheFlowers {
+  local $_ = shift;
+  tr/\'//d;
+  s/[^\-\w\n]+/_/g;
+  s/_{2,}/_/g;
+  s/_(?=[A-Z])//g;
+  $_;
 }
-
-sub fill_vase ($) { open *B::Deobfuscate::DATA, "<:scalar", \ shift }
+sub FillVase { open *B::Deobfuscate::DATA, "<:scalar", \ shift }
 sub import { shift; require O; O->import( 'Deobfuscate', @_ ) }
 
 BEGIN {
-    my $bouquet =
-q[Alp Lily
+    $Bouquet = <<Flowers;
+Alp Lily
 Alpine Hulsea
 Alpine Sunflower
 Alpine Saxifrage
@@ -422,10 +423,10 @@ Woolly Breeches
 Wyoming Paintbrush
 Yellow Bell
 Yellow Star Thistle
-Yellow Toadflax];
+Yellow Toadflax
+Flowers
 
-    arrange $bouquet;
-    fill_vase $bouquet;
+  FillVase( ArrangeTheFlowers( $Bouquet ) );
 }
 
 1;

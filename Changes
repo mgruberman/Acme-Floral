@@ -13,3 +13,6 @@ Revision history for Perl extension Acme::Floral.
         - moved Floral.pm to lib/Acme/Floral.pm
         - updated META.yml
         - upgraded B::Deobfuscate requirement to 0.10
+1.03  Feb 1, 2005
+        - Downgraded use of Test::More to Test::Simple and then added
+          it as a requirement to the Makefile.PL.
