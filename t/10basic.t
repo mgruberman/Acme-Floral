@@ -1,8 +1,5 @@
-# Before `make install' is performed this script should be runnable with
-# `make test'. After `make install' it should work as `perl test.pl'
+use Test::More tests => 2;
 
-use Test::Simple tests => 1;
-BEGIN { ok( require Acme::Floral ); }
-
-$foobar = '';
-print $foobar
+my $result = `$^X t/basic.pl`;
+is( $?, 0, "$^X t/basic.pl" );
+like( $result, qr/^print \$SacramentoMountainsPricklyPoppy;$/m, "Floralized" );
