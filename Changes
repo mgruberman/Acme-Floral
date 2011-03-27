@@ -18,3 +18,4 @@ Revision history for Perl extension Acme::Floral.
           it as a requirement to the Makefile.PL.
 1.04  ...
         - Removed SIGNATURE
+        - Build with Dist::Zilla

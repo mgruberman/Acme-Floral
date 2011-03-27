@@ -2,7 +2,7 @@ package Acme::Floral;
 use 5.008;
 use B::Deobfuscate;
 
-$VERSION = '1.03';
+$VERSION = '1.04';
 
 sub ArrangeTheFlowers {
   local $_ = shift;
