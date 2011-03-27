@@ -16,3 +16,5 @@ Revision history for Perl extension Acme::Floral.
 1.03  Feb 1, 2005
         - Downgraded use of Test::More to Test::Simple and then added
           it as a requirement to the Makefile.PL.
+1.04  ...
+        - Removed SIGNATURE
