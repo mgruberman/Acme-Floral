@@ -19,3 +19,4 @@ Revision history for Perl extension Acme::Floral.
 1.04  ...
         - Removed SIGNATURE
         - Build with Dist::Zilla
+        - Update author info
